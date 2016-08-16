@@ -1,0 +1,29 @@
+{
+  "name": "tochkaDevelopers/laravel-pinba-extension",
+  "description": "Integrates pinba + pinboard with Laravel",
+  "keywords": ["laravel", "pinba", "profiler", "debug"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey Kaspirovich",
+      "email": "lexxksb@gmail.com"
+    }
+  ],
+  "version": "1.0-dev",
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "tochkaDevelopers\\Pinba\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
