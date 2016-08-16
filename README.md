@@ -9,7 +9,7 @@ Integrates [pinba](http://pinba.org/ "Pinba site") + [pinboard](https://intaro.g
 
 Require this package with composer:
 
-    composer require tochkaDevelopers/laravel-pinba-extension
+    composer require tochka-developers/laravel-pinba-extension
 
 After updating composer, add the `tochkaDevelopers\Pinba\ServiceProvider::class` to the providers array in config/app.php
 
@@ -19,7 +19,7 @@ Copy the package config to your local config with the publish command:
 
     php artisan vendor:publish --provider="tochkaDevelopers\Pinba\ServiceProvider"
     
-To register the server settings in .env    
+To register the Pinba server settings in .env    
 
     pinba.enabled = true
     pinba.server = host:port
